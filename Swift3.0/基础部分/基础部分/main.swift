@@ -58,7 +58,7 @@ debugPrint(<#T##items: Any...##Any#>)
 
 
 //整数
-//“整数就是没有小数部分的数字，比如 42 和 -23 。整数可以是 有符号（正、负、零）或者 无符号（正、零）。”
+//整数就是没有小数部分的数字，比如 42 和 -23 。整数可以是 有符号（正、负、零）或者 无符号（正、零）。
 
 //Int,Int8,Int16,Int32,Int64,IntMax
 //UInt,UInt8,UInt16,UInt32,UInt64,UIntMax
@@ -120,7 +120,7 @@ print("UIntMax:\(min_UIntMax) - \(max_UIntMax)")
 
 
 //元组
-//“组（tuples）把多个值组合成一个复合值。元组内的值可以是任意类型，并不要求是相同类型。”
+//组（tuples）把多个值组合成一个复合值。元组内的值可以是任意类型，并不要求是相同类型。
 
 let http404Error = (404, "Not Found")
 // http404Error 的类型是 (Int, String)，值是 (404, "Not Found")
@@ -144,43 +144,5 @@ print(http200Status.statusCode, http200Status.description)
 
 let http500Status = (statusCode: 500, "Service Exception")
 print(http500Status.statusCode, http500Status.1)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
