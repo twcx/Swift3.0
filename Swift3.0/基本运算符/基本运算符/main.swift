@@ -53,13 +53,13 @@ print(colorNameToUse)
 
 
 
-//区间运算符
+//MARK:区间运算符
 //闭区间运算符 (a...b) 定义了一个包含从 a 到 b (包括 a 和 b) 的所有值的区间。a 的值不能超过 b 。
 for index in 1...5 {
     print("\(index) * 5 = \(index * 5)")
 }
 
-//半开区间运算符
+//MARK:半开区间运算符
 //半开区间运算符（a..<b）定义一个从 a 到 b 但不包括 b 的区间。 之所以称为半开区间，是因为该区间包含第一个值而不包括最后的值。
 let names = ["Anna", "Alex", "Brain", "Jack"]
 let count = names.count

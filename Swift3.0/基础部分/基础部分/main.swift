@@ -11,7 +11,7 @@ import Foundation
 //print("Hello, World!")
 
 
-//常量和变量
+//MARK:常量和变量
 //常量是特殊的变量，常量的值一旦设定就不能改变，而变量的值可随意更改
 
 //声明常量和变量
@@ -57,7 +57,7 @@ debugPrint(<#T##items: Any...##Any#>)
 //Swift不强制在每条语句后面加分号，但多条独立语句写在同一行时必须要用分号
 
 
-//整数
+//MARK:整数
 //整数就是没有小数部分的数字，比如 42 和 -23 。整数可以是 有符号（正、负、零）或者 无符号（正、零）。
 
 //Int,Int8,Int16,Int32,Int64,IntMax
@@ -111,7 +111,7 @@ let max_UIntMax = UIntMax.max
 print("UIntMax:\(min_UIntMax) - \(max_UIntMax)")
 
 
-//数值型字面量
+//MARK:数值型字面量
 //一个十进制数，没有前缀
 //一个二进制数，前缀是0b
 //一个八进制数，前缀是0o
@@ -147,7 +147,7 @@ let justOverOneMillion = 1_000_000.000_000_1
 
 
 
-//类型别名
+//MARK:类型别名
 typealias AudioSample = UInt16
 var maxAmplitudeFound = AudioSample.min
 print(maxAmplitudeFound)
@@ -155,7 +155,7 @@ print(maxAmplitudeFound)
 
 
 
-//元组
+//MARK:元组
 //组（tuples）把多个值组合成一个复合值。元组内的值可以是任意类型，并不要求是相同类型。
 
 let http404Error = (404, "Not Found")

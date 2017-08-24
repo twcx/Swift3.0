@@ -11,7 +11,7 @@ import Foundation
 //print("Hello, World!")
 
 
-//初始化空字符串
+//MARK:初始化空字符串
 var emptyString = ""    //空字符串字面量
 var anotherEmptySting = String()    //初始化方法
 //两个字符串均为空并等价
@@ -21,7 +21,7 @@ if emptyString.isEmpty {
 }
 
 
-//字符串可变性
+//MARK:字符串可变性
 //通过关键字‘var’来声明变量的可变性
 var variableString = "Horse"
 variableString += "and carriage"
@@ -34,7 +34,7 @@ variableString += "and other Hignlander"
 */
 
 
-//字符串是值类型
+//MARK:字符串是值类型
 //Swift 的String类型是值类型。 如果您创建了一个新的字符串，那么当其进行常量、变量赋值操作，或在函数/方法中传递时，会进行值拷贝。
 //任何情况下，都会对已有字符串值创建新副本，并对该新副本进行传递或赋值操作
 
@@ -44,7 +44,7 @@ variableString += "and other Hignlander"
 
 
 
-//使用字符
+//MARK:使用字符
 for character in "Dog!🐶".characters {
     print(character)
 }
@@ -56,7 +56,7 @@ let catString = String(catCharacters)
 print(catString)
 
 
-//链接字符串和字符
+//MARK:链接字符串和字符
 let string1 = "Hello"
 let string2 = " there"
 var welcome = string1 + string2
@@ -70,14 +70,14 @@ welcome.append(exclamationMark)
 print(welcome)
 
 
-//字符串插值
+//MARK:字符串插值
 let multiplier = 3
 let message = "\(multiplier) times 2.5 is \(Double(multiplier) * 2.5)"
 print(message)
 //注意：插值字符串中写在括号中的表达式不能包含非转义反斜杠 (\)，并且不能包含回车或换行符。不过，插值字符串可以包含其他字面量。
 
 
-//Unicode
+//MARK:Unicode
 let wiseWords = "\"imagination is more important than knowledge\" -Einstein"
 print(wiseWords)
 
@@ -129,7 +129,7 @@ print("the number of characters in \(word) is \(word.characters.count)")
 
 
 
-//访问和修改字符串
+//MARK:访问和修改字符串
 var greeting = ""
 //print(greeting[greeting.startIndex])
 //print(greeting[greeting.endIndex])
@@ -156,7 +156,7 @@ for index in word.characters.indices {
 }
 
 
-//插入和删除
+//MARK:插入和删除
 welcome = "hello"
 welcome.insert("!", at: welcome.endIndex)
 print(welcome)
@@ -173,7 +173,7 @@ print(welcome)
 
 
 
-//比较字符串
+//MARK:比较字符串
 let quotation = "We're a lot alike, you and I."
 let sameQuotation = "We're a lot alike, you and I."
 if quotation == sameQuotation {
@@ -237,7 +237,7 @@ print("\(mansionCount) mansion scenes;\(cellCount) cell scenes")
 
 
 
-//字符串的Unioncode表现形式
+//MARK:字符串的Unioncode表现形式
 let dogString = "Dog‼🐶"
 for codeUnit in dogString.utf8 {
     print("\(codeUnit) ",terminator:"")

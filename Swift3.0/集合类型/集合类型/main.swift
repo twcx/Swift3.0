@@ -11,7 +11,7 @@ import Foundation
 //print("Hello, World!")
 
 
-//数组(Arrays)
+//MARK:数组(Arrays)
 //是有序数据的集。使用有序列表存储同一类型的多个值，相同的值可以多次出现在一个数组的不同位置。
 
 //创建一个空数组
@@ -111,7 +111,7 @@ for (index, value) in shoppingList.enumerated() {
 
 
 
-
+//MARK:集合
 //--------------------------集合(Sets)--------------------------
 //无序无重复数据的集。用来存储相同类型并且没有确定顺序的值。
 //-------------------------------------------------------------
@@ -234,7 +234,7 @@ print(isStrictSuperset) // true
 
 
 
-
+//MARK:字典
 //--------------------------字典(Dictionaries)--------------------------
 /*
 无序的键值对的集。
@@ -319,19 +319,6 @@ print(airportCodes)
 
 let airportNames = [String](airports.values)
 print(airportNames)
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
